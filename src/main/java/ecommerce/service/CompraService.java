@@ -133,8 +133,9 @@ public class CompraService {
 				throw new IllegalArgumentException("Quantidade deve ser maior que zero");
 			}
 			Produto p = item.getProduto();
-			if (p == null || p.getPreco() == null || p.getPreco().compareTo(ZERO) < 0) {
-				throw new IllegalArgumentException("Produto/preço inválido");
+			// >>> ALTERAÇÃO: agora exige preço POSITIVO (> 0). Zero é inválido.
+			if (p == null || p.getPreco() == null || p.getPreco().compareTo(ZERO) <= 0) {
+				throw new IllegalArgumentException("Preço inválido: preço deve ser maior que zero");
 			}
 			subtotal = subtotal.add(p.getPreco().multiply(BigDecimal.valueOf(qtd.longValue())));
 		}
