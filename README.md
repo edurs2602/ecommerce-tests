@@ -1,7 +1,9 @@
 E-commerce Test - Trabalho de Testes de Software
 ================================================
 
-**Disciplina:** Testes de Software - Prof. Eiji Adachi**Projeto:** Testes Automatizados para Funcionalidade de Finalização de Compra**Autor:** Gabriel Viana e Luís Eduardo
+**Disciplina:** Testes de Software - Prof. Eiji Adachi
+**Projeto:** Testes Automatizados para Funcionalidade de Finalização de Compra
+**Autor:** Gabriel Viana e Luís Eduardo
 
 1\. Sobre o Projeto
 -------------------
@@ -10,7 +12,7 @@ Este projeto implementa testes de unidade automatizados para o método calcularT
 
 O projeto segue as diretrizes da disciplina, aplicando técnicas de teste funcional (Caixa-Preta) e estrutural (Caixa-Branca) , com documentação completa do projeto de testes e cobertura de 100% das arestas do método.
 
-*   **artifactId no pom.xml:** LuisEduardo-GabrielGuilherme
+* **artifactId no pom.xml:** LuisEduardo-GabrielGuilherme
     
 
 2\. Como Executar o Projeto
